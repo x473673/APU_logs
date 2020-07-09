@@ -39,6 +39,7 @@ def findType(filename,errtype,scsicode=''):
 	logfile.close()
 	print(*discs,sep = "\n")
 	
+
 if len(sys.argv) == 1:
 	print('specify a log file')
 	exit(1)
@@ -51,4 +52,4 @@ if len(sys.argv) == 3:
 if len(sys.argv) == 4:
 	findType(sys.argv[1],sys.argv[2],sys.argv[3])
 	exit(0)
-print('too much arguments')
+print('too many arguments')
