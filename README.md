@@ -1,7 +1,7 @@
 # APU_logs
 
-## usage
-<b>python3 logparser.py <FileName></b>
+## usage 1
+```python3 logparser.py <FileName>```
   
   lists present [ERROR TYPE - SCSI OPERATION CODE] tuples
   
@@ -16,7 +16,8 @@
   ('0x01', '0x28')
   ```
 
-python3 logparser.py <FileName> <ErrorType> [<SCSIOperationCode>]
+## usage 2
+```python3 logparser.py <FileName> <ErrorType> [<SCSIOperationCode>]```
   
   lists drive positions and number of errors of those drives that contains specified error type (and scsi code)
   
