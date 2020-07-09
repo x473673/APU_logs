@@ -1,7 +1,7 @@
 # APU_logs
 
 ## usage
-python3 logparser.py <FileName>
+<b>python3 logparser.py <FileName></b>
   
   lists present [ERROR TYPE - SCSI OPERATION CODE] tuples
   
